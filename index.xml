@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabian Gilson&#39;s website</title>
+    <link>https://fabgilson.github.io/</link>
+    <description>Recent content on Fabian Gilson&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://fabgilson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://fabgilson.github.io/about/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/about/</guid>
+      
+        <description>About me</description>
+      
+    </item>
+    
+    <item>
+      <title>Research I&#39;m doing</title>
+      <link>https://fabgilson.github.io/research/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/research/</guid>
+      
+        <description>Everything you want to know about my research</description>
+      
+    </item>
+    
+    <item>
+      <title>Good coding practices need an advocate inside the team (or it won&#39;t work)</title>
+      <link>https://fabgilson.github.io/posts/technical-leader/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/posts/technical-leader/</guid>
+      
+        <description>How hard it is to convince a team to write good code</description>
+      
+    </item>
+    
+    <item>
+      <title>Teaching about Scrum with paper</title>
+      <link>https://fabgilson.github.io/posts/scrum-tuto/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/posts/scrum-tuto/</guid>
+      
+        <description>How we teach about Scrum events and principles by building cities</description>
+      
+    </item>
+    
+    <item>
+      <title>Courses I&#39;m teaching</title>
+      <link>https://fabgilson.github.io/courses/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/courses/</guid>
+      
+        <description>Summary of the courses I teach with some additional resources</description>
+      
+    </item>
+    
+    <item>
+      <title>Moving to a partial flipped classroom</title>
+      <link>https://fabgilson.github.io/posts/blended-flipped/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/posts/blended-flipped/</guid>
+      
+        <description>Random thoughts on moving to a partial flipped classroom teaching style</description>
+      
+    </item>
+    
+    <item>
+      <title>Glad you&#39;re here!</title>
+      <link>https://fabgilson.github.io/posts/welcome/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/posts/welcome/</guid>
+      
+        <description>Some welcome words for you</description>
+      
+    </item>
+    
+  </channel>
+</rss>

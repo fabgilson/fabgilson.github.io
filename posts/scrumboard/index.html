@@ -1,0 +1,551 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="auto"
+  
+    class="html theme--light"
+  
+><head>
+  <meta charset="utf-8" />
+  <title>
+    Fabian Gilson
+        |
+        Scrumboard - A Jira-ersatz to teach agile software development
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.152.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Fabian Gilson" />
+  <meta
+    name="description"
+    content="A tool to track students&#39; progress that looks like a professional tool"
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.min.49bfd2dbac6030a3a24fe7cb768d3d0dd9d223458e88f7d6cf5fe7aa806aaa2d.css" integrity="sha256-Sb/S26xgMKOiT&#43;fLdo09DdnSI0WOiPfWz1/nqoBqqi0=" crossorigin="anonymous" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/stylesheet.min.1f449629064ee64aaae4c9ef08d22e6b7c02f9ee92b4a7899fd0a5c1977029a2.css"
+      integrity="sha256-H0SWKQZO5kqq5MnvCNIua3wC&#43;e6StKeJn9ClwZdwKaI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://fabgilson.github.io/posts/scrumboard/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Scrumboard - A Jira-ersatz to teach agile software development">
+  <meta name="twitter:description" content="A tool to track students&#39; progress that looks like a professional tool">
+
+
+
+  
+  <meta property="og:url" content="https://fabgilson.github.io/posts/scrumboard/">
+  <meta property="og:site_name" content="Fabian Gilson&#39;s website">
+  <meta property="og:title" content="Scrumboard - A Jira-ersatz to teach agile software development">
+  <meta property="og:description" content="A tool to track students&#39; progress that looks like a professional tool">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-01T00:00:00+00:00">
+    <meta property="article:tag" content="Teaching">
+    <meta property="article:tag" content="Agile Software Development">
+    <meta property="article:tag" content="Scrum">
+    <meta property="article:tag" content="Analytics">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "Scrumboard - A Jira-ersatz to teach agile software development",
+        "headline": "Scrumboard - A Jira-ersatz to teach agile software development",
+        "alternativeHeadline": "",
+        "description": "
+      A tool to track students\u0027 progress that looks like a professional tool
+
+
+    ",
+        "license": "",
+        
+          
+          "copyrightYear": "2025",
+        
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/fabgilson.github.io\/posts\/scrumboard\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Fabian Gilson"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Fabian Gilson"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Fabian Gilson"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Fabian Gilson"
+        },
+        "dateCreated": "2025-12-01T00:00:00.00Z",
+        "datePublished": "2025-12-01T00:00:00.00Z",
+        "dateModified": "2025-12-01T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Fabian Gilson",
+            "url": "https://fabgilson.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/fabgilson.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/fabgilson.github.io\/posts\/scrumboard\/",
+        "wordCount" : "817",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "teaching"
+
+    
+      
+        ,
+
+      
+      "agile software development"
+
+    
+      
+        ,
+
+      
+      "scrum"
+
+    
+      
+        ,
+
+      
+      "analytics"
+
+    ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Hi there, I&#39;m Fabian</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Some stuff about me and my work</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://twitter.com/FabGilson/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Twitter"
+            title="Twitter"
+          >
+            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/fabiangilson/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://gitlab.com/mde4asd/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="gitlab"
+            title="gitlab"
+          >
+            <i class="fab fa-gitlab fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.researchgate.net/profile/Fabian_Gilson"
+            target="_blank"
+            rel="noopener me"
+            aria-label="ResearchGate"
+            title="ResearchGate"
+          >
+            <i class="fab fa-researchgate fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://orcid.org/0000-0002-1465-3315"
+            target="_blank"
+            rel="noopener me"
+            aria-label="ORCID"
+            title="ORCID"
+          >
+            <i class="fab fa-orcid fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://profiles.canterbury.ac.nz/Fabian-Gilson"
+            target="_blank"
+            rel="noopener me"
+            aria-label="University of Canterbury&#39;s webpage"
+            title="University of Canterbury&#39;s webpage"
+          >
+            <i class="fas fa-id-card fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2025 Fabian Gilson. All rights reserved.
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/research/"
+              
+              title=""
+              >research</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/courses/"
+              
+              title=""
+              >courses</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/posts/"
+              
+              title=""
+              >posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >about</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Scrumboard - A Jira-Ersatz to Teach Agile Software Development</h1>
+      
+      <p>Over the past few years, we&rsquo;ve been developing a web-based tool to support students tracking their progress in an <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=SENG302">agile software development course</a>. In this blog, I&rsquo;ll explain why we moved away from professional / industry-grade tools and decided to (not) reinvent the wheel.</p>
+<h2 id="issues-with-commercial-or-professional-tools">Issues with commercial or professional tools</h2>
+<p>Following up from a prior experience with Jira while teaching in Belgium, I tried to use it again in that larger-scale SENG302 course. While it looked like a great idea at first for its relevance to industry, and data tracking, we abandoned after one year for the following reasons:</p>
+<ul>
+<li>the first-time setup of permissions, tuning of views, and reports is highly complex; they took a while to get right so that students had sufficient rights to record their work and progress, but not delete their (historical) mistakes for marking, feedback and reflection purpose;</li>
+<li>the overhead to create dedicated projects at the start of the year was non-negligible;</li>
+<li>the extraction of data for automated analysis purposes (e.g., logged time, type of work) could only be done via API calls that were complex and rather slow using the cloud version;</li>
+<li>the inability to add education specific features easily (e.g., reflection or feedback forms);</li>
+<li>the performance of the cloud version was sub-par when we had 70+ students in 10 teams (projects) using the tools in burst within the same time frame;</li>
+<li>and last, the recurring license cost was non-negligible.</li>
+</ul>
+<p>So, we decided to implement a similar, yet tailored tool, called the <a href="https://gitlab.com/uc-scrumboard/scrumboard"><strong>ScrumBoard</strong></a>. If you are interested in the latest version of the tool, please reach out as currently, this gitlab repository is a bit outdated.</p>
+<h2 id="less-configurability-but-more-features-for-education">Less configurability, but more features for education</h2>
+<h3 id="some-disclaimer-first">Some disclaimer first</h3>
+<p>The ScrumBoard, as its name indicates, is tailored for the Scrum process, so it does not offer the flexibility of other commercial tools that allow to define Kanban boards, for example. This was a conscious decision to speed up the development of the first version over a summer break with only a few interns. Also, the course uses Scrum as this framework suits our educational goals well: strict cycles with some planning and somewhat structured requirement engineering, regular reflection, cross-functionality (for students to increase their breadth of skills).</p>
+<p>Funnily enough, it was developed following a looser, more Kanban-y approach.</p>
+<h3 id="walkthrough-of-main-features">Walkthrough of main features</h3>
+<h4 id="backlog-and-sprint-management">Backlog and sprint management</h4>
+<p>The first set of features relate to product backlog management and sprint management. You can create stories, add acceptance criteria (i.e. Behaviour-Driven Development scenario), and create tasks associated to each story. We do not provide a way to create epics though.</p>
+<p>When you have moved some stories from your product backlog to the sprint backlog, and set up the start and end dates of the sprint, you can start the sprint and access a sprint board, as shown below.</p>
+<p><img src="/images/sb-sprint-board.png" alt="Sprint board"></p>
+<p>The tool offers all typical work tracking features such as tasks progress, time logging, and linking git commits. Optionally, developers can attach additional information such as work-log tagging if they want to track the type of work in a fined-grained way, e.g., feature work, testing, chore work. This is particularly useful when training full-stack developers.</p>
+<h4 id="sprint-review">Sprint review</h4>
+<p>A specific feature that we could not find in any existing tool is the ability to perform sprint reviews in a traceable and structured way. Since the ScrumBoard allows adding structured acceptance criteria in dedicated fields, we can offer a dedicated UI to record sprint (product) reviews, as depicted below.</p>
+<p><img src="/images/sb-sprint-review.png" alt="Sprint review"></p>
+<p>A reviewer will be able to systematically go through all acceptance criteria, specifying whether they pass or fail, and add some comments for bug reproduction purposes.</p>
+<h4 id="personal-progress-tracking">Personal progress tracking</h4>
+<p>While developers (i.e. students) are working on their tasks, they can access to a personal progress tracking. This is particularly important in our context, as we want students to work on all aspects of software development, including different types of activities (e.g., feature development, testing, chore work, documentation), as well as working across the code base (i.e. stories). We also want students to learn to work in pairs, following well-known agile software development practices. Below visualisation shows a summary of a student key progress indicators. Note that this view is under improvement and will change in the near future.</p>
+<p><img src="/images/sb-my-statistics.png" alt="Personal statistics"></p>
+<p>Note that we offer additional visualisations about hours put into the project over weeks with a breakdown per work-log type.</p>
+<h4 id="marking-support">Marking support</h4>
+<p>Last, we offer a summary for markers where we can identify potential issues in work patterns, or lack of evidence from students claiming work. Among other metrics, we can see how much a student worked per week, broken down between formal sessions (denoted by &ldquo;overhead&rdquo; below), feature work and testing. We can also see a punchcard of code commits and work-logs. Finally, we can see a list of work-logs of interest that either are missing linked git commits, or have been made outside typical work hours (for worklife balance monitoring), for example.</p>
+<p><img src="/images/sb-marking-summary.png" alt="Marking summary view"></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/teaching/">teaching</a><a class="tag" href="/tags/agile-software-development/">agile software development</a><a class="tag" href="/tags/scrum/">scrum</a><a class="tag" href="/tags/analytics/">analytics</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2025 Fabian Gilson. All rights reserved.
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

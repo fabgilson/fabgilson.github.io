@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Fabian Gilson&#39;s website</title>
+    <link>https://fabgilson.github.io/tags/analytics/</link>
+    <description>Recent content in Analytics on Fabian Gilson&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://fabgilson.github.io/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scrumboard - A Jira-ersatz to teach agile software development</title>
+      <link>https://fabgilson.github.io/posts/scrumboard/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabgilson.github.io/posts/scrumboard/</guid>
+      
+        <description>A tool to track students&#39; progress that looks like a professional tool</description>
+      
+    </item>
+    
+  </channel>
+</rss>
